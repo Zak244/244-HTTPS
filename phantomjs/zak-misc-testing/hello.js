@@ -6,11 +6,11 @@ var url = "http://hellopoetry.com";
 
 
 page.open(url, function(status){
-	for (var i in resources)
-		console.log(resources[i].redirectURL);
-	// console.log("Statuses: ", statuses);
-	console.log(JSON.stringify(resources, null, 4));
-	phantom.exit();
+	// for (var i in resources)
+	// 	console.log(resources[i].redirectURL);
+	// // console.log("Statuses: ", statuses);
+	// console.log(JSON.stringify(resources, null, 4));
+	// phantom.exit();
 });
 
 
