@@ -1,0 +1,22 @@
+It's very difficult to find free access to Alexa Top X sites beyond the top 50
+because they've rolled it into their AWS service. 
+
+The top million list was found at this URL: 
+http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+It was last updated on May 30 2017, the date which I accessed it.
+
+I found that URL from this thread: 
+https://gist.github.com/chilts/7229605#gistcomment-1934931
+
+All other alexa-top-* lists are generated from this master list.
+
+
+
+TO USE THE CSV:
+
+
+head -XYZ top-1m.csv will display top XYZ sites. 
+It will be faster than iterating through all the list.
+
+To find a specific domain:
+cat top-1million-sites.csv | grep github.com.
