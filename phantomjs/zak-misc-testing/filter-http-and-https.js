@@ -1,17 +1,19 @@
 var sys = require('system'),
     fs = require('fs');
 
-var INPUTFILE = "../utilities/alexa-top-5",
-    OUTPUTFILE = "filtered-top-5";
+var INPUTFILE = "../utilities/alexa-top-500",
+    OUTPUTFILE = "filtered-top-500";
 
-var using_https = null,
-    cur_url = "",
-    has_HTTPS_redirect = false;
+var url_index = 0,
+    use_https = false,
+    iteration = 0;
 
 // Main Execution:
 var sites = getSiteList();
+var results = {};
 process_site(false);
-
+/* Because of JS's asynchronous nature, all code beyond this should go in the 
+   if() block of the process_site() function */
 
 function getSiteList() {
     try {
@@ -19,13 +21,12 @@ function getSiteList() {
         var input_sites = fs.open(INPUTFILE, "r").read().match(/[^\r\n]+/g);
         var output_sites = [];
         
-        // index,site  -->    site     (extract only site from each line)
+        // STATUS site  -->    site  if STATUS === OK
         input_sites.forEach(function(val, index, arr){
-            var site = val.split(',')[1];
-            output_sites.push(site);
-            output_sites.push(site);
-            output_sites.push("www."+site);
-            output_sites.push("www."+site);
+            var line = val.split(' ');
+            if(line[0] === "OK") {
+                output_sites.push(line[1]);
+            }
         });
         return output_sites;
     } catch (e) {
@@ -35,27 +36,58 @@ function getSiteList() {
 }
 
 function process_site(use_https) {
-    if (sites.length == 0) {
+    /* Exit when we've tested all sites */
+    if (url_index >= sites.length - 1) {
+        /* "Callback" here: (executes when done with all page requests) */
+        printResults();
         phantom.exit();
-    } else {
+    } 
+
+    
+    else {
         var site = sites.shift(),
             page = require('webpage').create();
 
         cur_url = site;
         page.onResourceReceived = detect_protocol;
-        page.settings.resourceTimeout = 2000; //timeout is 2 seconds
+        page.settings.resourceTimeout = 10000; //timeout is 10 seconds
+        page.onResourceTimeout = logTimeout;
+        phantom.clearCookies(); //clear cookies every new request
+
+        /* HTTP: */
         if(!use_https) {
             using_https = false;
             has_HTTPS_redirect = false;
+            
             page.open("http://" + site, function(status) {
                 console.log("http://" + site + " " + status + " ... Rediect: " + has_HTTPS_redirect);
+                
+                if(!(site in results)) 
+                    results[site] = {};
+
+                if(status === "success")
+                    results[site].hasHTTP = !has_HTTPS_redirect;
+                else
+                    results[site].hasHTTP = false;
+
                 page.release();
                 process_site(true);
             });
-        } else {
+        } 
+
+        /* HTTPS: */
+        else {
             using_https = true;
             page.open("https://" + site, function(status) {
                 console.log("https://" + site + " " + status);
+                
+                if(!(site in results)) 
+                    results[site] = {};
+                
+                /* Will return failure if HTTPS not enabled */
+                results[site].hasHTTPS = (status === "success");
+                
+
                 page.release();
                 process_site(false);
             });
@@ -63,32 +95,41 @@ function process_site(use_https) {
     }
 }
 
-function detect_protocol(response) {
-    // check if the resource is done downloading 
-    if (response.stage !== "end") return;
+function printResults() {
+    var output = [];
+    var n_OK = 0,
+        n_RE = 0,
+        n_NS = 0,
+        n_ERROR = 0;
 
-    if (!using_https) {
-        if (https_match(response.url)) {
-            console.log("HTTPS REDIRECT");
-            has_HTTPS_redirect = true;
+    for (var site in results) {
+        if (results[site].hasHTTPS && results[site].hasHTTP) {
+            output.push("OK "+site);
+            n_OK ++;
         }
-    }    
+        else if(results[site].hasHTTPS && !results[site].hasHTTP) {
+            output.push("RE "+site);
+            n_RE ++;
+        }
+        else if(results[site].hasHTTP && !results[site].hasHTTPS) {
+            output.push("NS "+site);
+            n_NS ++;
+        }
+        else {
+            output.push("ERROR "+site+"==========");
+            n_ERROR ++;
+        }
+    }
+    try {
+        var n_total = n_OK + n_ERROR + n_NS + n_RE;
+        var METADATA = "\r\nOK: "+n_OK+";   RE: "+n_RE+";   NS: "+n_NS+";   ERROR: "+n_ERROR+";   TOTAL: "+n_total+";";
+        fs.write(OUTPUTFILE, output.join('\r\n')+METADATA, 'w');
+    } catch (e) {
+        console.log("COULD NOT WRITE TO OUTPUT FILE");
+        phantom.exit(-1);
+    }
 }
 
-function https_match(url) {
-    url = url.toLowerCase();
-    if(url.indexOf("https://") != 0)
-        return false;
-    return strEndsWith(url, cur_url) || strEndsWith(url, cur_url+"/");
-        
-}
-
-// strEndsWith Source: 
-// http://rickyrosario.com/blog/javascript-startswith-and-endswith-implementation-for-strings/
-function strEndsWith(str, suffix) {
-    return str.match(suffix+"$")==suffix;
-}
-
-function onResourceTimeout() {
+function logTimeout() {
     console.log("TIMED OUT");
 }
