@@ -11,7 +11,7 @@ import multiprocessing
 from collections import defaultdict
 
 import matplotlib
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 sys.path.append('..')
