@@ -1,0 +1,534 @@
+google.com HTTP 0.208 0.147 0.138 0.142  Med 0.145 Avg 0.159
+google.com HTTPS 0.186 0.168 0.185 0.166  Med 0.177 Avg 0.176
+google.com COMP 1.221 0.032 1.110 0.018
+google.co.in HTTP 0.233 0.141 0.153 0.136  Med 0.147 Avg 0.166
+google.co.in HTTPS 0.179 0.179 0.167 0.149  Med 0.173 Avg 0.169
+google.co.in COMP 1.177 0.026 1.017 0.003
+google.co.jp HTTP 0.167 0.143 0.13 0.133  Med 0.138 Avg 0.143
+google.co.jp HTTPS 0.182 0.189 0.165 0.16  Med 0.174 Avg 0.174
+google.co.jp COMP 1.257 0.036 1.215 0.031
+live.com HTTP 1.339 1.286 1.527 3.189  Med 1.433 Avg 1.835
+live.com HTTPS 0.889 1.351 2.386 1.341  Med 1.346 Avg 1.492
+live.com COMP 0.9393 -0.087 0.8128 -0.343
+sina.com.cn HTTP 9.478 3.978 5.1 4.684  Med 4.892 Avg 5.81
+sina.com.cn HTTPS 4.796 4.309 4.008 7.164  Med 4.553 Avg 5.069
+sina.com.cn COMP 0.9306 -0.339 0.8725 -0.741
+jd.com HTTP 2.835 9.579 1.047 1.037  Med 1.941 Avg 3.625
+jd.com HTTPS 1.675 1.061 1.06 1.056  Med 1.061 Avg 1.213
+jd.com COMP 0.5464 -0.88 0.3347 -2.411
+weibo.com HTTP 4.208 2.321 2.344 2.437  Med 2.391 Avg 2.828
+weibo.com HTTPS 1.547 2.52 0.168 0.506  Med 1.027 Avg 1.185
+weibo.com COMP 0.4294 -1.364 0.4192 -1.642
+google.de HTTP 0.275 0.14 0.142 0.135  Med 0.141 Avg 0.173
+google.de HTTPS 0.188 0.161 0.178 0.18  Med 0.179 Avg 0.177
+google.de COMP 1.270 0.038 1.022 0.004
+google.co.uk HTTP 0.257 0.127 0.145 0.13  Med 0.138 Avg 0.165
+google.co.uk HTTPS 0.185 0.166 0.172 0.164  Med 0.169 Avg 0.172
+google.co.uk COMP 1.229 0.032 1.042 0.007
+google.fr HTTP 0.271 0.137 0.129 0.147  Med 0.142 Avg 0.171
+google.fr HTTPS 0.227 0.16 0.18 0.158  Med 0.17 Avg 0.181
+google.fr COMP 1.197 0.028 1.060 0.01
+google.ru HTTP 0.722 0.146 0.147 0.155  Med 0.151 Avg 0.293
+google.ru HTTPS 0.217 0.19 0.207 0.168  Med 0.199 Avg 0.196
+google.ru COMP 1.315 0.048 0.6684 -0.097
+google.com.br HTTP 0.814 0.153 0.146 0.138  Med 0.15 Avg 0.313
+google.com.br HTTPS 0.187 0.172 0.172 0.161  Med 0.172 Avg 0.173
+google.com.br COMP 1.151 0.023 0.5532 -0.14
+google.com.hk HTTP 0.929 0.142 0.136 0.137  Med 0.14 Avg 0.336
+google.com.hk HTTPS 0.191 0.153 0.155 0.153  Med 0.154 Avg 0.163
+google.com.hk COMP 1.104 0.015 0.4851 -0.173
+yahoo.co.jp HTTP 3.782 2.438 2.335 2.394  Med 2.416 Avg 2.737
+yahoo.co.jp HTTPS 2.71 2.609 2.638 2.696  Med 2.667 Avg 2.663
+yahoo.co.jp COMP 1.104 0.251 0.9730 -0.074
+google.it HTTP 0.268 0.162 0.144 0.146  Med 0.154 Avg 0.18
+google.it HTTPS 0.216 0.181 0.187 0.159  Med 0.184 Avg 0.186
+google.it COMP 1.195 0.03 1.032 0.006
+t.co HTTP 0.122 0.066 0.068 0.066  Med 0.067 Avg 0.081
+t.co HTTPS 0.163 0.129 0.138 0.134  Med 0.136 Avg 0.141
+t.co COMP 2.030 0.069 1.752 0.061
+imgur.com HTTP 0.835 0.59 0.666 0.548  Med 0.628 Avg 0.66
+imgur.com HTTPS 0.714 0.528 0.459 0.504  Med 0.516 Avg 0.551
+imgur.com COMP 0.8217 -0.112 0.8355 -0.108
+google.es HTTP 0.325 0.148 0.141 0.131  Med 0.145 Avg 0.186
+google.es HTTPS 0.18 0.173 0.183 0.164  Med 0.177 Avg 0.175
+google.es COMP 1.221 0.032 0.9396 -0.011
+ebay.com HTTP 1.929 1.288 1.368 1.347  Med 1.358 Avg 1.483
+ebay.com HTTPS 1.693 1.65 1.668 1.67  Med 1.669 Avg 1.67
+ebay.com COMP 1.229 0.312 1.126 0.187
+onclkds.com HTTP 1.229 0.709 0.708 0.707  Med 0.709 Avg 0.838
+onclkds.com HTTPS 1.003 1.006 0.995 0.994  Med 0.999 Avg 1
+onclkds.com COMP 1.410 0.291 1.192 0.161
+ntd.tv HTTP 1.487 0.61 0.579 0.431  Med 0.595 Avg 0.777
+ntd.tv HTTPS 2.157 0.679 0.744 0.716  Med 0.73 Avg 1.074
+ntd.tv COMP 1.228 0.136 1.383 0.297
+bing.com HTTP 0.171 0.157 0.196 0.148  Med 0.164 Avg 0.168
+bing.com HTTPS 0.343 0.242 0.245 0.246  Med 0.246 Avg 0.269
+bing.com COMP 1.497 0.082 1.601 0.101
+msn.com HTTP 2.067 0.696 1.155 0.641  Med 0.926 Avg 1.14
+msn.com HTTPS 12.304 2.247 1.761 2.142  Med 2.195 Avg 4.614
+msn.com COMP 2.371 1.269 4.048 3.474
+google.ca HTTP 0.322 0.135 0.154 0.158  Med 0.156 Avg 0.192
+google.ca HTTPS 0.183 0.16 0.232 0.168  Med 0.176 Avg 0.186
+google.ca COMP 1.125 0.02 0.9662 -0.006
+google.com.mx HTTP 0.266 0.148 0.142 0.149  Med 0.149 Avg 0.176
+google.com.mx HTTPS 0.18 0.181 0.169 0.167  Med 0.175 Avg 0.174
+google.com.mx COMP 1.175 0.026 0.9887 -0.002
+xvideos.com HTTP 3.775 1.06 1.549 0.966  Med 1.305 Avg 1.838
+xvideos.com HTTPS 2.906 2.896 2.155 1.88  Med 2.526 Avg 2.459
+xvideos.com COMP 1.936 1.221 1.338 0.622
+blogspot.com HTTP 0.93 0.336 0.433 0.353  Med 0.393 Avg 0.513
+blogspot.com HTTPS 0.335 0.349 0.4 0.339  Med 0.344 Avg 0.356
+blogspot.com COMP 0.8753 -0.049 0.6935 -0.157
+popads.net HTTP 0.743 0.063 0.016 0.053  Med 0.058 Avg 0.219
+popads.net HTTPS 0.733 0.017 0.051 0.015  Med 0.034 Avg 0.204
+popads.net COMP 0.5862 -0.024 0.9326 -0.015
+google.com.tr HTTP 0.27 0.164 0.139 0.188  Med 0.176 Avg 0.19
+google.com.tr HTTPS 0.196 0.19 0.159 0.154  Med 0.175 Avg 0.175
+google.com.tr COMP 0.9915 -0.001 0.9185 -0.015
+wikia.com HTTP 1.122 1.018 0.465 0.481  Med 0.75 Avg 0.772
+wikia.com HTTPS 0.504 0.518 0.486 0.482  Med 0.495 Avg 0.498
+wikia.com COMP 0.6604 -0.254 0.6448 -0.274
+google.com.au HTTP 0.314 0.133 0.133 0.259  Med 0.196 Avg 0.21
+google.com.au HTTPS 0.308 0.174 0.157 0.16  Med 0.167 Avg 0.2
+google.com.au COMP 0.8520 -0.029 0.9523 -0.01
+diply.com HTTP 0.701 0.604 0.721 0.525  Med 0.653 Avg 0.638
+diply.com HTTPS 0.672 0.596 0.566 1.042  Med 0.634 Avg 0.719
+diply.com COMP 0.9716 -0.018 1.127 0.081
+google.com.tw HTTP 0.305 0.131 0.144 0.303  Med 0.224 Avg 0.221
+google.com.tw HTTPS 0.21 0.186 0.197 0.186  Med 0.192 Avg 0.195
+google.com.tw COMP 0.8568 -0.032 0.8822 -0.026
+google.co.id HTTP 0.465 0.141 0.133 0.136  Med 0.139 Avg 0.219
+google.co.id HTTPS 0.186 0.162 0.169 0.163  Med 0.166 Avg 0.17
+google.co.id COMP 1.199 0.028 0.7771 -0.049
+google.pl HTTP 0.307 0.143 0.139 0.138  Med 0.141 Avg 0.182
+google.pl HTTPS 0.2 0.177 0.189 0.175  Med 0.183 Avg 0.185
+google.pl COMP 1.298 0.042 1.019 0.004
+adobe.com HTTP 1.932 1.126 1.05 1.066  Med 1.096 Avg 1.294
+adobe.com HTTPS 1.134 1.248 1.124 1.039  Med 1.129 Avg 1.136
+adobe.com COMP 1.030 0.033 0.8784 -0.157
+coccoc.com HTTP 3.867 2.604 2.45 2.558  Med 2.581 Avg 2.87
+coccoc.com HTTPS 3.343 3.427 1.813 3.297  Med 3.32 Avg 2.97
+coccoc.com COMP 1.286 0.739 1.035 0.1
+txxx.com HTTP 2.353 2.18 2.206 1.315  Med 2.193 Avg 2.014
+txxx.com HTTPS 2.172 1.47 2.168 1.5  Med 1.834 Avg 1.828
+txxx.com COMP 0.8363 -0.359 0.9076 -0.186
+google.co.th HTTP 1.972 0.158 0.155 0.133  Med 0.157 Avg 0.605
+google.co.th HTTPS 0.204 0.207 0.169 0.164  Med 0.187 Avg 0.186
+google.co.th COMP 1.192 0.03 0.3077 -0.418
+amazon.in HTTP 1.056 1.062 1.158 1.096  Med 1.079 Avg 1.093
+amazon.in HTTPS 2.055 2.12 1.969 1.963  Med 2.012 Avg 2.027
+amazon.in COMP 1.865 0.933 1.854 0.934
+google.com.pk HTTP 0.265 0.158 0.148 0.154  Med 0.156 Avg 0.181
+google.com.pk HTTPS 0.178 0.2 0.178 0.188  Med 0.183 Avg 0.186
+google.com.pk COMP 1.173 0.027 1.026 0.005
+clicksgear.com HTTP 0.155 0.139 0.139 0.14  Med 0.14 Avg 0.143
+clicksgear.com HTTPS 0.287 0.288 0.287 0.294  Med 0.288 Avg 0.289
+clicksgear.com COMP 2.061 0.148 2.017 0.146
+google.com.eg HTTP 0.399 0.138 0.172 0.142  Med 0.157 Avg 0.213
+google.com.eg HTTPS 0.205 0.179 0.178 0.169  Med 0.179 Avg 0.183
+google.com.eg COMP 1.137 0.022 0.8590 -0.03
+google.com.sa HTTP 0.612 0.153 0.137 0.14  Med 0.147 Avg 0.261
+google.com.sa HTTPS 0.303 0.172 0.189 0.204  Med 0.197 Avg 0.217
+google.com.sa COMP 1.341 0.05 0.8330 -0.043
+google.com.ar HTTP 0.275 0.168 0.137 0.139  Med 0.154 Avg 0.18
+google.com.ar HTTPS 0.2 0.198 0.182 0.163  Med 0.19 Avg 0.186
+google.com.ar COMP 1.238 0.037 1.033 0.006
+cnn.com HTTP 2.602 1.388 1.387 1.505  Med 1.447 Avg 1.721
+cnn.com HTTPS 1.728 1.659 1.613 1.603  Med 1.636 Avg 1.651
+cnn.com COMP 1.131 0.19 0.9595 -0.07
+bbc.com HTTP 3.582 1.871 1.736 1.639  Med 1.804 Avg 2.207
+bbc.com HTTPS 3.05 1.646 1.636 1.683  Med 1.665 Avg 2.004
+bbc.com COMP 0.9229 -0.139 0.9079 -0.203
+uptodown.com HTTP 1.658 0.564 0.17 0.187  Med 0.376 Avg 0.645
+uptodown.com HTTPS 1.177 0.18 0.191 0.176  Med 0.186 Avg 0.431
+uptodown.com COMP 0.4940 -0.19 0.6685 -0.214
+google.nl HTTP 0.277 0.138 0.178 0.152  Med 0.165 Avg 0.186
+google.nl HTTPS 0.182 0.164 0.155 0.179  Med 0.172 Avg 0.17
+google.nl COMP 1.039 0.007 0.9128 -0.016
+ask.com HTTP 0.488 0.49 0.323 0.375  Med 0.432 Avg 0.419
+ask.com HTTPS 0.534 0.7 0.566 0.503  Med 0.55 Avg 0.576
+ask.com COMP 1.275 0.119 1.374 0.157
+dailymotion.com HTTP 2.544 1.785 2.009 1.529  Med 1.897 Avg 1.967
+dailymotion.com HTTPS 2.799 2.566 2.922 3.245  Med 2.861 Avg 2.883
+dailymotion.com COMP 1.508 0.964 1.466 0.916
+xnxx.com HTTP 1.331 1.224 1.024 1.045  Med 1.135 Avg 1.156
+xnxx.com HTTPS 2.299 1.372 1.437 2.465  Med 1.868 Avg 1.893
+xnxx.com COMP 1.647 0.734 1.638 0.737
+blastingnews.com HTTP 2.309 1.395 2.152 1.286  Med 1.774 Avg 1.786
+blastingnews.com HTTPS 1.818 1.999 1.667 1.746  Med 1.782 Avg 1.808
+blastingnews.com COMP 1.005 0.009 1.012 0.022
+adf.ly HTTP 1.4 0.494 0.947 0.988  Med 0.968 Avg 0.957
+adf.ly HTTPS 1.037 0.594 1.027 1.111  Med 1.032 Avg 0.942
+adf.ly COMP 1.067 0.065 0.9843 -0.015
+ebay.de HTTP 1.895 1.595 1.687 1.549  Med 1.641 Avg 1.682
+ebay.de HTTPS 1.964 1.954 2.246 1.989  Med 1.977 Avg 2.038
+ebay.de COMP 1.204 0.336 1.212 0.357
+detik.com HTTP 7.35 5.071 5 5.571  Med 5.321 Avg 5.748
+detik.com HTTPS 8.252 7.919 8.062 7.823  Med 7.991 Avg 8.014
+detik.com COMP 1.502 2.67 1.394 2.266
+google.co.za HTTP 0.281 0.145 0.139 0.156  Med 0.151 Avg 0.18
+google.co.za HTTPS 0.23 0.168 0.164 0.275  Med 0.199 Avg 0.209
+google.co.za COMP 1.322 0.049 1.161 0.029
+google.co.ve HTTP 0.355 0.137 0.151 0.135  Med 0.144 Avg 0.195
+google.co.ve HTTPS 0.179 0.159 0.27 0.159  Med 0.169 Avg 0.192
+google.co.ve COMP 1.174 0.025 0.9859 -0.003
+daikynguyenvn.com HTTP 1.998 0.823 0.651 0.745  Med 0.784 Avg 1.054
+daikynguyenvn.com HTTPS 0.767 0.994 0.826 0.907  Med 0.867 Avg 0.874
+daikynguyenvn.com COMP 1.105 0.083 0.8286 -0.181
+google.com.ua HTTP 0.211 0.156 0.141 0.14  Med 0.149 Avg 0.162
+google.com.ua HTTPS 0.201 0.167 0.184 0.166  Med 0.176 Avg 0.18
+google.com.ua COMP 1.182 0.027 1.108 0.018
+ebay.co.uk HTTP 1.062 1.568 1.502 0.848  Med 1.282 Avg 1.245
+ebay.co.uk HTTPS 1.403 1.833 1.728 1.734  Med 1.731 Avg 1.675
+ebay.co.uk COMP 1.350 0.449 1.345 0.43
+steamcommunity.com HTTP 0.496 0.108 0.109 1.857  Med 0.303 Avg 0.643
+steamcommunity.com HTTPS 0.546 0.209 0.628 0.24  Med 0.393 Avg 0.406
+steamcommunity.com COMP 1.299 0.091 0.6315 -0.237
+google.gr HTTP 0.447 0.142 0.147 0.142  Med 0.145 Avg 0.22
+google.gr HTTPS 0.203 0.17 0.178 0.177  Med 0.178 Avg 0.182
+google.gr COMP 1.228 0.033 0.8292 -0.037
+google.com.vn HTTP 0.196 0.131 0.152 0.147  Med 0.15 Avg 0.157
+google.com.vn HTTPS 0.172 0.177 0.174 0.17  Med 0.173 Avg 0.173
+google.com.vn COMP 1.157 0.024 1.107 0.017
+popcash.net HTTP 0.438 0.034 0.037 0.037  Med 0.037 Avg 0.137
+popcash.net HTTPS 0.525 0.037 0.038 0.039  Med 0.039 Avg 0.16
+popcash.net COMP 1.041 0.002 1.170 0.023
+google.com.co HTTP 0.23 0.132 0.131 0.149  Med 0.141 Avg 0.161
+google.com.co HTTPS 0.191 0.161 0.159 0.163  Med 0.162 Avg 0.169
+google.com.co COMP 1.153 0.022 1.050 0.008
+google.com.sg HTTP 0.219 0.141 0.17 0.134  Med 0.156 Avg 0.166
+google.com.sg HTTPS 0.229 0.178 0.176 0.181  Med 0.18 Avg 0.191
+google.com.sg COMP 1.154 0.024 1.151 0.025
+google.co.kr HTTP 0.424 0.132 0.145 0.131  Med 0.139 Avg 0.208
+google.co.kr HTTPS 0.202 0.162 0.167 0.163  Med 0.165 Avg 0.174
+google.co.kr COMP 1.191 0.027 0.8341 -0.034
+google.be HTTP 1.089 0.163 0.135 0.128  Med 0.149 Avg 0.379
+google.be HTTPS 0.207 0.174 0.192 0.164  Med 0.183 Avg 0.184
+google.be COMP 1.228 0.034 0.4865 -0.194
+google.se HTTP 0.381 0.154 0.134 0.141  Med 0.148 Avg 0.203
+google.se HTTPS 0.227 0.181 0.19 0.207  Med 0.199 Avg 0.201
+google.se COMP 1.346 0.051 0.9938 -0.001
+google.com.ph HTTP 0.25 0.139 0.136 0.155  Med 0.147 Avg 0.17
+google.com.ph HTTPS 0.227 0.172 0.191 0.19  Med 0.191 Avg 0.195
+google.com.ph COMP 1.296 0.044 1.147 0.025
+indeed.com HTTP 5.178 0.135 0.13 0.128  Med 0.133 Avg 1.393
+indeed.com HTTPS 0.15 0.16 0.16 0.149  Med 0.155 Avg 0.155
+indeed.com COMP 1.170 0.023 0.1111 -1.238
+deviantart.com HTTP 1.672 1.393 1.336 1.446  Med 1.42 Avg 1.462
+deviantart.com HTTPS 1.559 1.551 1.32 1.353  Med 1.452 Avg 1.446
+deviantart.com COMP 1.023 0.033 0.9891 -0.016
+github.io HTTP 0.774 0.303 0.278 0.285  Med 0.294 Avg 0.41
+github.io HTTPS 0.318 0.203 0.276 0.399  Med 0.297 Avg 0.299
+github.io COMP 1.010 0.003 0.7293 -0.111
+wikihow.com HTTP 0.808 0.415 0.474 0.453  Med 0.464 Avg 0.538
+wikihow.com HTTPS 0.528 0.553 0.534 0.559  Med 0.544 Avg 0.544
+wikihow.com COMP 1.173 0.08 1.011 0.006
+google.az HTTP 0.383 0.133 0.14 0.124  Med 0.137 Avg 0.195
+google.az HTTPS 0.196 0.218 0.16 0.194  Med 0.195 Avg 0.192
+google.az COMP 1.429 0.059 0.9846 -0.003
+google.cn HTTP 0.191 0.144 0.154 0.193  Med 0.173 Avg 0.171
+google.cn HTTPS 0.133 0.132 0.141 0.132  Med 0.133 Avg 0.135
+google.cn COMP 0.7681 -0.04 0.7889 -0.036
+hclips.com HTTP 2.59 1.891 2.577 2.173  Med 2.375 Avg 2.308
+hclips.com HTTPS 1.728 1.636 1.643 1.516  Med 1.64 Avg 1.631
+hclips.com COMP 0.6903 -0.735 0.7066 -0.677
+google.at HTTP 0.292 0.146 0.154 0.159  Med 0.157 Avg 0.188
+google.at HTTPS 0.181 0.171 0.166 0.172  Med 0.172 Avg 0.173
+google.at COMP 1.096 0.015 0.9188 -0.015
+google.ro HTTP 0.773 0.144 0.128 0.142  Med 0.143 Avg 0.297
+google.ro HTTPS 0.192 0.172 0.162 0.176  Med 0.174 Avg 0.176
+google.ro COMP 1.217 0.031 0.5914 -0.121
+iwanttodeliver.com HTTP 0.366 0.318 0.334 0.305  Med 0.326 Avg 0.331
+iwanttodeliver.com HTTPS 1.371 0.666 0.649 0.64  Med 0.658 Avg 0.832
+iwanttodeliver.com COMP 2.017 0.332 2.514 0.501
+huaban.com HTTP 7.55 5.261 3.057 1.942  Med 4.159 Avg 4.453
+huaban.com HTTPS 5.695 3.934 7.133 3.377  Med 4.815 Avg 5.035
+huaban.com COMP 1.158 0.656 1.131 0.582
+google.com.ng HTTP 0.245 0.151 0.156 0.126  Med 0.154 Avg 0.17
+google.com.ng HTTPS 0.211 0.176 0.19 0.186  Med 0.188 Avg 0.191
+google.com.ng COMP 1.225 0.035 1.125 0.021
+lifebuzz.com HTTP 1.146 0.491 0.91 0.485  Med 0.701 Avg 0.758
+lifebuzz.com HTTPS 0.554 0.553 0.554 0.722  Med 0.554 Avg 0.596
+lifebuzz.com COMP 0.7909 -0.146 0.7859 -0.162
+google.com.pe HTTP 0.267 0.137 0.139 0.142  Med 0.141 Avg 0.171
+google.com.pe HTTPS 0.181 0.185 0.163 0.174  Med 0.178 Avg 0.176
+google.com.pe COMP 1.263 0.037 1.026 0.005
+google.cz HTTP 0.299 0.138 0.156 0.152  Med 0.154 Avg 0.186
+google.cz HTTPS 0.189 0.159 0.17 0.244  Med 0.18 Avg 0.191
+google.cz COMP 1.166 0.026 1.023 0.004
+adexchangeprediction.com HTTP 0.133 0.095 0.116 0.06  Med 0.106 Avg 0.101
+adexchangeprediction.com HTTPS 0.132 0.139 0.131 0.1  Med 0.132 Avg 0.126
+adexchangeprediction.com COMP 1.246 0.026 1.243 0.025
+google.ch HTTP 0.258 0.147 0.146 0.144  Med 0.147 Avg 0.174
+google.ch HTTPS 0.239 0.172 0.171 0.165  Med 0.172 Avg 0.187
+google.ch COMP 1.171 0.025 1.075 0.013
+alibaba.com HTTP 1.105 0.611 0.601 0.593  Med 0.606 Avg 0.728
+alibaba.com HTTPS 0.253 0.274 0.633 0.296  Med 0.285 Avg 0.364
+alibaba.com COMP 0.4703 -0.321 0.5003 -0.363
+performanceadexchange.com HTTP 0.091 0.079 0.08 0.078  Med 0.08 Avg 0.082
+performanceadexchange.com HTTPS 0.164 0.165 0.168 0.168  Med 0.167 Avg 0.166
+performanceadexchange.com COMP 2.094 0.087 2.027 0.084
+reimageplus.com HTTP 1.084 0.679 0.739 0.654  Med 0.709 Avg 0.789
+reimageplus.com HTTPS 0.72 0.707 0.82 0.832  Med 0.77 Avg 0.77
+reimageplus.com COMP 1.086 0.061 0.9756 -0.019
+mercadolivre.com.br HTTP 2.045 1.267 1.33 1.266  Med 1.299 Avg 1.477
+mercadolivre.com.br HTTPS 1.225 1.289 1.44 1.176  Med 1.257 Avg 1.283
+mercadolivre.com.br COMP 0.9680 -0.041 0.8683 -0.194
+indiatimes.com HTTP 5.021 2.335 2.345 2.176  Med 2.34 Avg 2.969
+indiatimes.com HTTPS 2.748 3.291 3.104 4.83  Med 3.198 Avg 3.493
+indiatimes.com COMP 1.366 0.858 1.176 0.524
+google.cl HTTP 0.31 0.135 0.146 0.196  Med 0.171 Avg 0.197
+google.cl HTTPS 0.277 0.165 0.178 0.172  Med 0.175 Avg 0.198
+google.cl COMP 1.023 0.004 1.006 0.001
+google.no HTTP 0.868 0.149 0.151 0.14  Med 0.15 Avg 0.327
+google.no HTTPS 0.263 0.177 0.177 0.173  Med 0.177 Avg 0.198
+google.no COMP 1.180 0.027 0.6040 -0.129
+rarbg.to HTTP 1.379 0.518 0.506 0.504  Med 0.512 Avg 0.727
+rarbg.to HTTPS 1.822 0.802 0.838 0.827  Med 0.833 Avg 1.072
+rarbg.to COMP 1.626 0.321 1.475 0.346
+google.pt HTTP 0.855 0.151 0.156 0.148  Med 0.154 Avg 0.328
+google.pt HTTPS 0.238 0.197 0.174 0.167  Med 0.186 Avg 0.194
+google.pt COMP 1.208 0.032 0.5924 -0.133
+prestoris.com HTTP 0.46 0.45 0.427 0.433  Med 0.442 Avg 0.443
+prestoris.com HTTPS 0.745 0.733 0.841 0.745  Med 0.745 Avg 0.766
+prestoris.com COMP 1.687 0.304 1.731 0.324
+bitauto.com HTTP 10.876 3.685 3.822 3.948  Med 3.885 Avg 5.583
+bitauto.com HTTPS 0.783 0.766 0.762 0.765  Med 0.766 Avg 0.769
+bitauto.com COMP 0.1970 -3.119 0.1377 -4.814
+outbrain.com HTTP 0.271 0.176 0.174 0.175  Med 0.176 Avg 0.199
+outbrain.com HTTPS 0.308 0.305 0.309 0.306  Med 0.307 Avg 0.307
+outbrain.com COMP 1.749 0.132 1.543 0.108
+abs-cbn.com HTTP 7.316 7.871 8.323 8.101  Med 7.986 Avg 7.903
+abs-cbn.com HTTPS 7.633 8.659 8.338 8.105  Med 8.222 Avg 8.184
+abs-cbn.com COMP 1.029 0.236 1.036 0.281
+google.ae HTTP 0.481 0.164 0.137 0.143  Med 0.154 Avg 0.231
+google.ae HTTPS 0.295 0.191 0.168 0.173  Med 0.182 Avg 0.207
+google.ae COMP 1.186 0.029 0.8941 -0.024
+irctc.co.in HTTP 5.934 3.436 2.264 2.265  Med 2.851 Avg 3.475
+irctc.co.in HTTPS 3.108 2.865 2.8 2.918  Med 2.892 Avg 2.923
+irctc.co.in COMP 1.014 0.041 0.8411 -0.552
+battle.net HTTP 1.032 0.177 0.165 0.149  Med 0.171 Avg 0.381
+battle.net HTTPS 0.261 0.259 0.248 0.254  Med 0.257 Avg 0.256
+battle.net COMP 1.500 0.086 0.6710 -0.125
+ameblo.jp HTTP 1.394 1.175 1.189 1.212  Med 1.201 Avg 1.243
+ameblo.jp HTTPS 2.578 2.402 2.078 2.483  Med 2.443 Avg 2.385
+ameblo.jp COMP 2.035 1.242 1.920 1.143
+kinogo.club HTTP 4.693 3.648 3.432 13.216  Med 4.171 Avg 6.247
+kinogo.club HTTPS 3.394 3.165 3.502 3.246  Med 3.32 Avg 3.327
+kinogo.club COMP 0.7961 -0.85 0.5325 -2.92
+google.dz HTTP 1.077 0.136 0.137 0.161  Med 0.149 Avg 0.378
+google.dz HTTPS 0.224 0.179 0.184 0.178  Med 0.182 Avg 0.191
+google.dz COMP 1.218 0.033 0.5063 -0.186
+gamepedia.com HTTP 1.18 0.588 0.458 0.542  Med 0.565 Avg 0.692
+gamepedia.com HTTPS 0.633 0.507 0.597 0.52  Med 0.559 Avg 0.564
+gamepedia.com COMP 0.9885 -0.006 0.8154 -0.128
+livejournal.com HTTP 2.705 1.605 1.768 1.881  Med 1.825 Avg 1.99
+livejournal.com HTTPS 2.165 2.208 2.198 2.237  Med 2.203 Avg 2.202
+livejournal.com COMP 1.207 0.379 1.107 0.212
+doubleclick.net HTTP 1.854 0.209 0.265 0.299  Med 0.282 Avg 0.657
+doubleclick.net HTTPS 0.462 0.262 0.273 0.284  Med 0.279 Avg 0.32
+doubleclick.net COMP 0.9876 -0.003 0.4876 -0.336
+youm7.com HTTP 2.813 1.58 0.212 0.243  Med 0.912 Avg 1.212
+youm7.com HTTPS 4.856 0.204 0.229 0.247  Med 0.238 Avg 1.384
+youm7.com COMP 0.2611 -0.673 1.142 0.172
+google.ie HTTP 0.962 0.178 0.147 0.171  Med 0.175 Avg 0.365
+google.ie HTTPS 0.323 0.207 0.214 0.246  Med 0.23 Avg 0.248
+google.ie COMP 1.318 0.056 0.6790 -0.117
+google.hu HTTP 0.238 0.139 0.143 0.149  Med 0.146 Avg 0.167
+google.hu HTTPS 0.218 0.171 0.175 0.185  Med 0.18 Avg 0.187
+google.hu COMP 1.233 0.034 1.120 0.02
+google.co.ao HTTP 0.278 0.139 0.137 0.128  Med 0.138 Avg 0.171
+google.co.ao HTTPS 0.232 0.157 0.171 0.165  Med 0.168 Avg 0.181
+google.co.ao COMP 1.217 0.03 1.063 0.011
+liputan6.com HTTP 7.126 2.366 2.574 2.586  Med 2.58 Avg 3.663
+liputan6.com HTTPS 3.46 3.489 3.452 3.412  Med 3.456 Avg 3.453
+liputan6.com COMP 1.340 0.876 0.9427 -0.21
+speedtest.net HTTP 0.091 0.046 0.046 0.045  Med 0.046 Avg 0.057
+speedtest.net HTTPS 0.057 0.054 0.059 0.058  Med 0.058 Avg 0.057
+speedtest.net COMP 1.250 0.012 1.000 0
+google.dk HTTP 0.24 0.141 0.137 0.133  Med 0.139 Avg 0.163
+google.dk HTTPS 0.211 0.175 0.164 0.172  Med 0.174 Avg 0.181
+google.dk COMP 1.248 0.035 1.109 0.018
+google.co.il HTTP 0.434 0.142 0.132 0.134  Med 0.138 Avg 0.211
+google.co.il HTTPS 0.247 0.161 0.178 0.186  Med 0.182 Avg 0.193
+google.co.il COMP 1.319 0.044 0.9169 -0.017
+dingit.tv HTTP 2.575 1.281 1.297 1.347  Med 1.322 Avg 1.625
+dingit.tv HTTPS 3.939 5.595 2.09 2.143  Med 3.041 Avg 3.442
+dingit.tv COMP 2.300 1.719 2.118 1.817
+foxnews.com HTTP 2.015 1.707 1.587 1.477  Med 1.647 Avg 1.697
+foxnews.com HTTPS 2.609 2.004 1.991 2.098  Med 2.051 Avg 2.176
+foxnews.com COMP 1.245 0.404 1.282 0.479
+cnblogs.com HTTP 4.284 0.921 1.374 1.352  Med 1.363 Avg 1.983
+cnblogs.com HTTPS 2.453 1.359 1.343 1.378  Med 1.369 Avg 1.633
+cnblogs.com COMP 1.004 0.006 0.8237 -0.349
+google.fi HTTP 0.887 0.159 0.141 0.139  Med 0.15 Avg 0.332
+google.fi HTTPS 0.198 0.16 0.201 0.171  Med 0.185 Avg 0.183
+google.fi COMP 1.230 0.035 0.5505 -0.149
+rutracker.org HTTP 6.812 3.804 3.821 3.932  Med 3.877 Avg 4.592
+rutracker.org HTTPS 8.341 8.624 8.396 8.558  Med 8.477 Avg 8.48
+rutracker.org COMP 2.187 4.601 1.847 3.888
+blogspot.com.br HTTP 0.161 0.085 0.046 0.082  Med 0.084 Avg 0.094
+blogspot.com.br HTTPS 0.145 0.483 0.166 0.135  Med 0.156 Avg 0.232
+blogspot.com.br COMP 1.862 0.072 2.484 0.139
+youku.com HTTP 3.454 2.273 2.107 2.164  Med 2.219 Avg 2.5
+youku.com HTTPS 4.342 2.557 2.577 2.727  Med 2.652 Avg 3.051
+youku.com COMP 1.195 0.434 1.221 0.551
+youtube-mp3.org HTTP 0.52 0.514 0.479 0.476  Med 0.497 Avg 0.497
+youtube-mp3.org HTTPS 0.519 0.505 0.512 0.521  Med 0.516 Avg 0.514
+youtube-mp3.org COMP 1.038 0.019 1.034 0.017
+businessinsider.com HTTP 4.515 3.222 3.787 3.831  Med 3.809 Avg 3.839
+businessinsider.com HTTPS 3.734 3.526 3.233 3.71  Med 3.618 Avg 3.551
+businessinsider.com COMP 0.9499 -0.191 0.9250 -0.288
+sabah.com.tr HTTP 2.714 2.801 2.589 3.323  Med 2.758 Avg 2.857
+sabah.com.tr HTTPS 3.342 2.875 2.62 2.749  Med 2.812 Avg 2.897
+sabah.com.tr COMP 1.020 0.055 1.014 0.04
+zippyshare.com HTTP 2.866 0.607 0.609 0.58  Med 0.608 Avg 1.166
+zippyshare.com HTTPS 1.191 1.216 1.215 1.08  Med 1.203 Avg 1.176
+zippyshare.com COMP 1.979 0.595 1.009 0.01
+ouo.io HTTP 0.478 0.104 0.105 0.114  Med 0.11 Avg 0.2
+ouo.io HTTPS 0.175 0.167 0.192 0.184  Med 0.18 Avg 0.18
+ouo.io COMP 1.639 0.07 0.8964 -0.021
+bestbuy.com HTTP 1.206 1.683 1.353 1.374  Med 1.364 Avg 1.404
+bestbuy.com HTTPS 1.451 1.636 1.36 1.42  Med 1.436 Avg 1.467
+bestbuy.com COMP 1.053 0.072 1.045 0.063
+sberbank.ru HTTP 15.424 3.717 8.793 10.198  Med 9.496 Avg 9.533
+sberbank.ru HTTPS 18.42 17.112 16.062 16.386  Med 16.749 Avg 16.995
+sberbank.ru COMP 1.764 7.254 1.783 7.462
+blogspot.in HTTP 0.208 0.177 0.159 0.206  Med 0.192 Avg 0.188
+blogspot.in HTTPS 0.201 0.168 0.166 0.17  Med 0.169 Avg 0.176
+blogspot.in COMP 0.8825 -0.022 0.9400 -0.011
+kissanime.ru HTTP 0.094 0.029 0.024 0.026  Med 0.028 Avg 0.043
+kissanime.ru HTTPS 0.06 0.062 0.065 0.06  Med 0.061 Avg 0.062
+kissanime.ru COMP 2.218 0.034 1.428 0.019
+google.sk HTTP 0.316 0.178 0.156 0.148  Med 0.167 Avg 0.2
+google.sk HTTPS 0.212 0.239 0.184 0.179  Med 0.198 Avg 0.204
+google.sk COMP 1.186 0.031 1.020 0.004
+media.tumblr.com HTTP 0.087 0.002 0.001 0.001  Med 0.002 Avg 0.023
+media.tumblr.com HTTPS 0.086 0.002 0.001 0.001  Med 0.002 Avg 0.023
+media.tumblr.com COMP 1.000 0 0.9890 0
+cricbuzz.com HTTP 2.255 0.546 0.501 0.475  Med 0.524 Avg 0.944
+cricbuzz.com HTTPS 0.902 0.84 1.439 0.858  Med 0.88 Avg 1.01
+cricbuzz.com COMP 1.681 0.357 1.069 0.066
+gearbest.com HTTP 1.032 0.581 0.59 0.68  Med 0.635 Avg 0.721
+gearbest.com HTTPS 0.664 0.56 0.569 0.506  Med 0.565 Avg 0.575
+gearbest.com COMP 0.8890 -0.07 0.7974 -0.146
+2ch.net HTTP 2.29 1.953 1.885 1.875  Med 1.919 Avg 2.001
+2ch.net HTTPS 2.529 2.231 2.111 3.428  Med 2.38 Avg 2.575
+2ch.net COMP 1.240 0.461 1.287 0.574
+oracle.com HTTP 1.394 0.868 0.843 0.863  Med 0.866 Avg 0.992
+oracle.com HTTPS 1.19 0.861 1.074 0.873  Med 0.974 Avg 1
+oracle.com COMP 1.125 0.108 1.008 0.008
+digikala.com HTTP 6.703 5.933 4.976 5.296  Med 5.615 Avg 5.727
+digikala.com HTTPS 5.187 5.267 7.015 5.278  Med 5.273 Avg 5.687
+digikala.com COMP 0.9391 -0.342 0.9930 -0.04
+independent.co.uk HTTP 2.901 4.811 1.924 2.16  Med 2.531 Avg 2.949
+independent.co.uk HTTPS 10.482 9.068 9.206 8.946  Med 9.137 Avg 9.426
+independent.co.uk COMP 3.611 6.607 3.196 6.477
+blackboard.com HTTP 1.458 0.522 0.465 0.451  Med 0.494 Avg 0.724
+blackboard.com HTTPS 1.457 0.636 1.254 0.65  Med 0.952 Avg 0.999
+blackboard.com COMP 1.929 0.459 1.380 0.275
+orange.fr HTTP 6.723 0.965 0.971 0.98  Med 0.976 Avg 2.41
+orange.fr HTTPS 1.29 1.284 1.285 1.293  Med 1.288 Avg 1.288
+orange.fr COMP 1.320 0.312 0.5345 -1.122
+eastday.com HTTP 13.105 7.748 9.95 8.619  Med 9.285 Avg 9.856
+eastday.com HTTPS 8.6 8.977 10.105 9.21  Med 9.094 Avg 9.223
+eastday.com COMP 0.9794 -0.191 0.9358 -0.632
+hatena.ne.jp HTTP 4.013 3.672 3.839 3.887  Med 3.863 Avg 3.853
+hatena.ne.jp HTTPS 4.265 4.331 4.376 4.168  Med 4.298 Avg 4.285
+hatena.ne.jp COMP 1.113 0.435 1.112 0.432
+userapi.com HTTP 4.675 1.786 2.958 1.598  Med 2.372 Avg 2.754
+userapi.com HTTPS 1.627 1.656 1.578 1.587  Med 1.607 Avg 1.612
+userapi.com COMP 0.6775 -0.765 0.5853 -1.142
+onet.pl HTTP 5.578 1.683 1.684 1.686  Med 1.685 Avg 2.658
+onet.pl HTTPS 2.05 2.044 2.034 1.817  Med 2.039 Avg 1.986
+onet.pl COMP 1.210 0.354 0.7473 -0.671
+google.kz HTTP 0.264 0.242 0.16 0.147  Med 0.201 Avg 0.203
+google.kz HTTPS 0.233 0.188 0.223 0.175  Med 0.206 Avg 0.205
+google.kz COMP 1.022 0.005 1.007 0.002
+163.com HTTP 8.294 0.366 0.368 0.408  Med 0.388 Avg 2.359
+163.com HTTPS 4.127 0.375 0.383 0.402  Med 0.393 Avg 1.322
+163.com COMP 1.012 0.005 0.5603 -1.037
+elpais.com HTTP 4.109 2.511 2.213 2.107  Med 2.362 Avg 2.735
+elpais.com HTTPS 3.955 3.56 3.186 3.051  Med 3.373 Avg 3.438
+elpais.com COMP 1.428 1.011 1.257 0.703
+beeg.com HTTP 1.212 2.31 1.124 1.088  Med 1.168 Avg 1.434
+beeg.com HTTPS 1.277 1.901 1.866 1.183  Med 1.572 Avg 1.557
+beeg.com COMP 1.345 0.404 1.086 0.123
+mercadolibre.com.ar HTTP 5.137 1.132 1.096 0.904  Med 1.114 Avg 2.067
+mercadolibre.com.ar HTTPS 6.288 0.933 0.981 1.031  Med 1.006 Avg 2.308
+mercadolibre.com.ar COMP 0.9031 -0.108 1.117 0.241
+ci123.com HTTP 8.446 0.982 1.012 2.026  Med 1.519 Avg 3.117
+ci123.com HTTPS 2.515 0.99 0.892 1.005  Med 0.998 Avg 1.351
+ci123.com COMP 0.6567 -0.521 0.4333 -1.766
+1337x.to HTTP 0.99 0.393 0.211 0.419  Med 0.406 Avg 0.503
+1337x.to HTTPS 0.584 0.279 0.278 0.261  Med 0.279 Avg 0.351
+1337x.to COMP 0.6860 -0.127 0.6965 -0.153
+spiegel.de HTTP 8.316 3.623 4.308 3.45  Med 3.966 Avg 4.924
+spiegel.de HTTPS 4.441 3.391 3.526 4.242  Med 3.884 Avg 3.9
+spiegel.de COMP 0.9794 -0.081 0.7920 -1.024
+hdfcbank.com HTTP 0.039 0.028 0.027 0.029  Med 0.029 Avg 0.031
+hdfcbank.com HTTPS 0.078 0.063 0.071 0.078  Med 0.075 Avg 0.073
+hdfcbank.com COMP 2.614 0.046 2.358 0.042
+youdao.com HTTP 2.59 1.393 1.357 1.386  Med 1.39 Avg 1.682
+youdao.com HTTPS 4.989 1.26 1.28 1.236  Med 1.27 Avg 2.191
+youdao.com COMP 0.9140 -0.119 1.303 0.51
+taleo.net HTTP 0.129 0.001 0.001 0.001  Med 0.001 Avg 0.033
+taleo.net HTTPS 0.368 0.003 0.001 0.001  Med 0.002 Avg 0.093
+taleo.net COMP 2.000 0.001 2.826 0.06
+mit.edu HTTP 0.374 0.222 0.214 0.215  Med 0.219 Avg 0.256
+mit.edu HTTPS 1.489 0.271 0.122 0.257  Med 0.264 Avg 0.535
+mit.edu COMP 1.208 0.046 2.087 0.279
+google.com.kw HTTP 0.833 0.163 0.16 0.151  Med 0.162 Avg 0.327
+google.com.kw HTTPS 0.215 0.227 0.19 0.185  Med 0.203 Avg 0.204
+google.com.kw COMP 1.254 0.041 0.6251 -0.122
+ebay.it HTTP 1.725 1.532 1.475 1.546  Med 1.539 Avg 1.57
+ebay.it HTTPS 2.138 1.801 2.387 2.161  Med 2.15 Avg 2.122
+ebay.it COMP 1.397 0.611 1.352 0.552
+tutorialspoint.com HTTP 0.39 0.144 0.154 0.152  Med 0.153 Avg 0.21
+tutorialspoint.com HTTPS 0.156 0.153 0.15 0.182  Med 0.155 Avg 0.16
+tutorialspoint.com COMP 1.010 0.002 0.7631 -0.05
+doublepimpssl.com HTTP 0.035 0.032 0.03 0.03  Med 0.031 Avg 0.032
+doublepimpssl.com HTTPS 0.07 0.062 0.128 0.063  Med 0.067 Avg 0.081
+doublepimpssl.com COMP 2.145 0.036 2.543 0.049
+free.fr HTTP 2.712 0.145 0.154 0.143  Med 0.15 Avg 0.789
+free.fr HTTPS 1.301 0.14 0.152 0.145  Med 0.149 Avg 0.435
+free.fr COMP 0.9933 -0.001 0.5510 -0.354
+doublepimp.com HTTP 1.019 0.55 0.176 0.215  Med 0.383 Avg 0.49
+doublepimp.com HTTPS 1.408 0.711 0.361 0.303  Med 0.536 Avg 0.696
+doublepimp.com COMP 1.401 0.154 1.420 0.206
+google.co.nz HTTP 0.903 0.132 0.155 0.154  Med 0.155 Avg 0.336
+google.co.nz HTTPS 0.216 0.166 0.185 0.161  Med 0.176 Avg 0.182
+google.co.nz COMP 1.136 0.021 0.5417 -0.154
+dell.com HTTP 1.063 0.64 0.49 0.48  Med 0.565 Avg 0.668
+dell.com HTTPS 0.682 0.691 0.639 0.648  Med 0.665 Avg 0.665
+dell.com COMP 1.177 0.1 0.9951 -0.003
+google.bg HTTP 0.464 0.143 0.134 0.144  Med 0.144 Avg 0.221
+google.bg HTTPS 0.222 0.163 0.172 0.174  Med 0.173 Avg 0.183
+google.bg COMP 1.206 0.03 0.8260 -0.038
+momoshop.com.tw HTTP 1.955 0.636 0.003 0.009  Med 0.323 Avg 0.651
+momoshop.com.tw HTTPS 1.15 0.002 0.01 0.009  Med 0.01 Avg 0.293
+momoshop.com.tw COMP 0.02946 -0.313 0.4499 -0.358
+mmofreegames.online HTTP 0.218 0.001 0.001 0.001  Med 0.001 Avg 0.055
+mmofreegames.online HTTPS 0.115 0.002 0.001 0.001  Med 0.002 Avg 0.03
+mmofreegames.online COMP 1.500 0.001 0.5385 -0.025
+t-online.de HTTP 8.422 3.601 3.625 4.858  Med 4.242 Avg 5.127
+t-online.de HTTPS 4.825 3.595 3.533 3.575  Med 3.585 Avg 3.882
+t-online.de COMP 0.8452 -0.656 0.7572 -1.244
+flirt4free.com HTTP 2.826 2.353 1.816 2.064  Med 2.209 Avg 2.265
+flirt4free.com HTTPS 2.762 1.863 2.406 2.13  Med 2.268 Avg 2.29
+flirt4free.com COMP 1.027 0.06 1.011 0.026
+line.me HTTP 3.324 1.642 1.487 1.488  Med 1.565 Avg 1.985
+line.me HTTPS 1.347 1.346 1.358 1.35  Med 1.349 Avg 1.35
+line.me COMP 0.8617 -0.216 0.6801 -0.635
+chatwork.com HTTP 1.881 0.123 0.092 0.086  Med 0.108 Avg 0.546
+chatwork.com HTTPS 1.507 1.145 1.143 1.162  Med 1.154 Avg 1.239
+chatwork.com COMP 10.73 1.046 2.272 0.694
+alsbbora.com HTTP 4.385 1.391 1.319 3.086  Med 2.239 Avg 2.545
+alsbbora.com HTTPS 1.966 2.831 2.879 2.913  Med 2.855 Avg 2.647
+alsbbora.com COMP 1.275 0.617 1.040 0.102
+weblio.jp HTTP 1.919 1.446 1.374 1.042  Med 1.41 Avg 1.445
+weblio.jp HTTPS 0.692 1.023 0.501 0.478  Med 0.597 Avg 0.674
+weblio.jp COMP 0.4230 -0.813 0.4660 -0.772
+launchpage.org HTTP 1.141 0.156 0.154 0.159  Med 0.158 Avg 0.403
+launchpage.org HTTPS 1.326 0.304 0.307 0.304  Med 0.306 Avg 0.56
+launchpage.org COMP 1.940 0.148 1.392 0.158

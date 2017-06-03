@@ -1,0 +1,21 @@
+OK google.com
+RE youtube.com
+RE facebook.com
+ERROR baidu.com==========
+RE wikipedia.org
+RE yahoo.com
+OK google.co.in
+NS qq.com
+RE reddit.com
+RE taobao.com
+RE twitter.com
+RE amazon.com
+NS sohu.com
+OK google.co.jp
+RE tmall.com
+OK live.com
+RE vk.com
+RE instagram.com
+OK sina.com.cn
+OK jd.com
+OK: 6;   RE: 11;   NS: 2;   ERROR: 1;   TOTAL: 20;
