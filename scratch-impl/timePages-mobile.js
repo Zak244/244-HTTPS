@@ -1,12 +1,14 @@
-console.log("Running timer....");
+// MOBILE VERSION: (Should be run over 3G emulator)
+//  - user agent looks like Galaxy Nexus running Chrome for mobile
+// 
 var sys = require('system'),
     fs = require('fs');
 
 // Configurable Global Constants:
 /* The timeout */
-var T_TIMEOUT = 5000,  
+var T_TIMEOUT = 5000,
     INPUTFILE = "filtered-top-500",
-    OUTPUTFILE = "measurements-top-500";
+    OUTPUTFILE = "mobile-measurements-top-500";
 
 // Dynamic Globals:
 var url_index = 0,
@@ -102,7 +104,11 @@ function process_site() {
             page = require('webpage').create();
 
         /* Set page parameters: */
-        page.settings.resourceTimeout = T_TIMEOUT; //timeout is 10 seconds
+        page.settings.resourceTimeout = T_TIMEOUT; //timeout is user configurable
+        // Look like a Galaxy Nexus running Chrome for mobile:
+        page.settings.userAgent = "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19";
+        // Make screen the size of a Galaxy Nexus:
+        page.viewportSize = { width: 360, height: 560};
         page.onResourceTimeout = logTimeout;
         phantom.clearCookies(); //clear cookies every new request
 

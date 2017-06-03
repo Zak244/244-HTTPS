@@ -1,0 +1,15 @@
+google.com HTTP 0.719 0.149 0.14 0.155  Med 0.152 Avg 0.291
+google.com HTTPS 0.316 0.23 0.165 0.207  Med 0.219 Avg 0.23
+google.com COMP 1.438 0.067 0.7893 -0.061
+google.co.in HTTP 1.183 0.176 0.142 0.132  Med 0.159 Avg 0.408
+google.co.in HTTPS 0.452 0.221 0.196 0.2  Med 0.211 Avg 0.267
+google.co.in COMP 1.324 0.052 0.6546 -0.141
+google.co.jp HTTP 0.722 0.136 0.144 0.368  Med 0.256 Avg 0.343
+google.co.jp HTTPS 0.393 0.222 0.175 0.198  Med 0.21 Avg 0.247
+google.co.jp COMP 0.8203 -0.046 0.7212 -0.095
+live.com HTTP 1.252 0.846 0.843 0.857  Med 0.852 Avg 0.95
+live.com HTTPS 1.078 1.071 1.064 1.09  Med 1.075 Avg 1.076
+live.com COMP 1.262 0.223 1.133 0.126
+sina.com.cn HTTP 10.158 9.466 6.206 6.358  Med 7.912 Avg 8.047
+sina.com.cn HTTPS 6.848 6.793 6.914 6.825  Med 6.837 Avg 6.845
+sina.com.cn COMP 0.8641 -1.075 0.8506 -1.202
