@@ -5,8 +5,10 @@ import subprocess
 from collections import defaultdict
 from loader import Loader, LoadResult, Timeout, TimeoutError
 
+#assumes you are running this from the root directory
+
 PHANTOMJS = './phantomjs/phantom'
-PHANTOMLOADER = 'phantomloader.js'
+PHANTOMLOADER = './phantomjs/phantomloader.js'
 
 class PhantomJSLoader(Loader):
     '''Subclass of :class:`Loader` that loads pages using PhantomJS.

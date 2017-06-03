@@ -1,0 +1,7 @@
+#!/bin/bash
+echo Setting up testing environment...
+pip install virtualenv
+virtualenv venv
+source venv/bin/activate
+pip install -r utilities/requirements.txt
+deactivate
