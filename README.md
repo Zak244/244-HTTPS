@@ -14,7 +14,7 @@ Warning: This will take several hours!
 After completion, plots should be available in root directory as `ratio.png`
 and  `difference.png`.
 
-#Alternate Instructions
+# Alternate Instructions
 The above reproduction scripts use the original author's scripts since they are more user friendly. However, if you are intrested in reproducing the measurements we published in our blog post, instructions and explanations are below:
 
 ### 1. Run the timing test:
