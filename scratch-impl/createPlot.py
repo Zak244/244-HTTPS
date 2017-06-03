@@ -31,7 +31,7 @@ def plot_data(fraction_data, absolute_data):
 
     plt.xlabel('Load Time Ratio (HTTPS/HTTP)')
     plt.ylabel('CDF')
-    plt.title('Figure 5a Replication: Load time ratio for top 500 sites')
+    plt.title('Figure 5a Replication: Load time ratio for top 500 sites over fiber')
     plt.legend()
     plt.savefig('scratch-ratio.png')
 
@@ -48,7 +48,7 @@ def plot_data(fraction_data, absolute_data):
 
     plt.xlabel('Load Time Difference (HTTPS - HTTP) [seconds]')
     plt.ylabel('CDF')
-    plt.title('Figure 5b Replication: Load time difference for top 500 sites')
+    plt.title('Figure 5b Replication: Load time difference for top 500 sites over fiber')
     plt.legend()
     plt.savefig('scratch-difference.png')
 
