@@ -14,8 +14,15 @@ A reproduction of select results of a 2014 paper
 ## 2. Install python dependancies
 `pip install -r requirements.txt`
 
-## 3. Run the tests
-`./run_scripts`
+## 3. Add PhantomJS (depends on your OS)
+Download [here](http://phantomjs.org/download.html), find and rename the
+executable as `phantom`,then place executable in the `/phantomjs` directory.  
 
-## 4. To exit when finished
+## 4. Run the tests
+`./run_tests` (currently only tests that it can reach google.com)
+
+After completion, plots should be available in root directory as `ratio.png`
+and  `difference.png`.
+
+## 5. To exit Virtual Environment
 `deactivate`
