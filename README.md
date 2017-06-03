@@ -19,8 +19,11 @@ The above reproduction scripts use the original author's scripts since they are 
 
 ### 1. Run the timing test:
 Warning: this will take several hours!
+
 This will overwrite the measurements-top-500 file. This relies on the existence of the filtered-top-500 file in the scratch-impl folder as well.
+
 `cd scratch-impl`
+
 `../phantomjs/phantom timePages.js`
 
 ### 2. Filter Out Extra Data
@@ -29,13 +32,18 @@ The timing script generates more data than is necessary to draw the CDF's, which
 
 ### 3. Download Dependencies
 From the root:
+
 `cd utilities`
+
 `pip install -r requirements.txt`
+
 If the pip installer does not work, try manualling installing the dependencies listed in requirements.txt. You can ignore "requests" as it is not used by the plotting script.
 
 ### 4. Plot the results
 From the root:
+
 `cd scratch-impl`
+
 `python createPlot.py`
 
 If you run into any problems with setup, please email zakwhitt at stanford.edu or bencase at stanford.edu.
