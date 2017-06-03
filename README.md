@@ -11,8 +11,8 @@ Compatible with 64-bit Linux. We recommend running this inside of the CS244 VM.
 Warning: This will take several hours!
 `./run_tests` 
 
-After completion, plots should be available in root directory as `ratio.png`
-and  `difference.png`.
+After completion, plots should be available in root directory as `ratio-mean.png`, `ratio-median.png`, `difference-mean.png`, 
+and  `difference-median.png`.
 
 # Alternate Instructions
 The above reproduction scripts use the original author's scripts since they are more user friendly. However, if you are intrested in reproducing the measurements we published in our blog post, instructions and explanations are below:
