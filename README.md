@@ -9,7 +9,7 @@ A reproduction of select results of a 2014 paper
 
 `virtualenv venv`
 
-`source /venv/bin/activate`
+`source venv/bin/activate`
 
 ## 2. Install python dependancies
 `pip install -r requirements.txt`
