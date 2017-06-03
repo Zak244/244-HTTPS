@@ -3,19 +3,16 @@
 A reproduction of select results of a 2014 paper
 
 # Instructions
-
+Compatible with 64-bit Linux. We recommend running this inside of a Virtual
+Machine.
 ## 1. Setup Testing Environment
-`./setup`
+`./setup`  
 
-## 2. Add PhantomJS (depends on your OS)
-Download [here](http://phantomjs.org/download.html), find and rename the
-executable as `phantom`,then place executable in the `/phantomjs` directory.  
-
-## 3. Run the tests
+## 2. Run the tests
 `./run_tests` (currently only tests that it can reach google.com)
 
 After completion, plots should be available in root directory as `ratio.png`
 and  `difference.png`.
 
-## 4. To exit Virtual Environment
+## 3. To exit Virtual Environment
 `deactivate`
