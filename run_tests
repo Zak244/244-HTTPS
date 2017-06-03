@@ -1,5 +1,3 @@
 #!/bin/bash
 echo Running Tests...
-source venv/bin/activate
 python phantomjs/time_requests.py google.com -n 3
-deactivate

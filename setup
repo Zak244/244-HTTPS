@@ -3,8 +3,5 @@ echo Setting up testing environment...
 sudo apt-get update
 sudo apt-get install python-pip
 sudo apt-get install python-dev
-sudo apt-get install python-virtualenv
-virtualenv venv
-source venv/bin/activate
 pip install -r utilities/requirements.txt
 deactivate

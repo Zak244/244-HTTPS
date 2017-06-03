@@ -1,6 +1,3 @@
-numpy
-matplotlib
-multiprocess
 pprint
 pyparsing
 requests
