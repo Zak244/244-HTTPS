@@ -13,6 +13,3 @@ Machine.
 
 After completion, plots should be available in root directory as `ratio.png`
 and  `difference.png`.
-
-## 3. To exit Virtual Environment
-`deactivate`
