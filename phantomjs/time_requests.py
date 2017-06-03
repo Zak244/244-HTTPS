@@ -198,12 +198,19 @@ def plot_results(filename_to_results, filenames=None):
         absolute_data.append(numpy.array(filename_to_data[filename]['mean_absolute_inflations']))# * 1000)  # s -> ms
         absolute_data.append(numpy.array(filename_to_data[filename]['median_absolute_inflations']))# * 1000)  # s -> ms
 
-    #create ratio plot
+    #create ratio plots
     plt.figure(0)
     fraction_means = numpy.sort(fraction_data[0])
     yvals = numpy.arange(len(fraction_means))/float(len(fraction_means))
     plt.scatter(fraction_means, yvals, label='Mean')
 
+    plt.xlabel('Load Time Ratio (HTTPS/HTTP)')
+    plt.ylabel('CDF')
+    plt.title('Figure 5a Replication: Load time ratio for top 500 sites')
+    plt.legend()
+    plt.savefig('ratio-mean.png')
+
+    plt.figure(1)
     fraction_medians = numpy.sort(fraction_data[1])
     yvals = numpy.arange(len(fraction_medians))/float(len(fraction_medians))
     plt.scatter(fraction_medians, yvals, label='Median')
@@ -212,14 +219,21 @@ def plot_results(filename_to_results, filenames=None):
     plt.ylabel('CDF')
     plt.title('Figure 5a Replication: Load time ratio for top 500 sites')
     plt.legend()
-    plt.savefig('ratio.png')
+    plt.savefig('ratio-median.png')
 
-    #create absolute plot
-    plt.figure(1)
+    #create absolute plots
+    plt.figure(2)
     absolute_means = numpy.sort(absolute_data[0])
     yvals = numpy.arange(len(absolute_means))/float(len(absolute_means))
     plt.scatter(absolute_means, yvals, label='Mean')
 
+    plt.xlabel('Load Time Difference (HTTPS - HTTP) [seconds]')
+    plt.ylabel('CDF')
+    plt.title('Figure 5b Replication: Load time difference for top 500 sites')
+    plt.legend()
+    plt.savefig('difference-mean.png')
+
+    plt.figure(3)
     absolute_medians = numpy.sort(absolute_data[1])
     yvals = numpy.arange(len(absolute_medians))/float(len(absolute_medians))
     plt.scatter(absolute_medians, yvals, label='Median')
@@ -228,7 +242,7 @@ def plot_results(filename_to_results, filenames=None):
     plt.ylabel('CDF')
     plt.title('Figure 5b Replication: Load time difference for top 500 sites')
     plt.legend()
-    plt.savefig('difference.png')
+    plt.savefig('difference-median.png')
 
 def summarize_results(filename_to_results):
     for results in filename_to_results.values():
