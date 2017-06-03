@@ -4,4 +4,3 @@ sudo apt-get update
 sudo apt-get install python-pip
 sudo apt-get install python-dev
 pip install -r utilities/requirements.txt
-deactivate
