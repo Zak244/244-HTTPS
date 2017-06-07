@@ -5,8 +5,8 @@ var sys = require('system'),
 // Configurable Global Constants:
 /* The timeout */
 var NTRIALS = 20,
-    T_TIMEOUT = 5000,  
-    INPUTFILE = "mobile-filtered-top-500-20trials",
+    T_TIMEOUT = 5000,
+    INPUTFILE = "filtered-top-500",
     OUTPUTFILE = "mobile-measurements-top-500-20trials";
 
 // Dynamic Globals:
@@ -22,7 +22,7 @@ console.log("Got site list");
 var results = {};
 console.log("Running test...");
 process_site(false);
-/* Because of JS's asynchronous nature, all code logically executed after this 
+/* Because of JS's asynchronous nature, all code logically executed after this
     should go in the if() block of the process_site() function */
 
 function getSiteList() {
@@ -30,7 +30,7 @@ function getSiteList() {
         // Open file, read text as blob, split by line:
         var input_sites = fs.open(INPUTFILE, "r").read().match(/[^\r\n]+/g);
         var output_sites = [];
-        
+
         // index,site  -->    site     (extract only site from each line)
         input_sites.forEach(function(val, index, arr){
             var line = val.split(' ');
@@ -52,7 +52,7 @@ function whenLoaded(status, page) {
 
     if(!(site in results)) {
         results[site] = {
-            "HTTP": {}, 
+            "HTTP": {},
             "HTTPS": {}
         };
     }
@@ -74,10 +74,10 @@ function whenLoaded(status, page) {
 }
 
 function process_site() {
+    printResults(); // update ouput file after _every_ site (in case of early exit)
     if (url_index >= sites.length) {
         console.log("Finished loading all sites. Now processing timing data...");
         /* "Callback" here: (executes when done with all page requests) */
-        printResults();
         phantom.exit();
     } else {
         /*Advance url index if necessary: */
@@ -113,11 +113,11 @@ function process_site() {
 
         /* HTTP: */
         if(!use_https) {
-            // If Starting new page: 
-            if (iteration == 0) 
+            // If Starting new page:
+            if (iteration == 0)
                 console.log("Loading page "+(url_index+1)+" / "+sites.length+" over HTTP: "+sites[url_index]);
 
-            // Start timer before loading page: 
+            // Start timer before loading page:
             time_start = Date.now();
             // console.log("Opening http://"+site);
             page.open("http://" + site, function(status){
@@ -125,7 +125,7 @@ function process_site() {
 
                 if(!(site in results)) {
                     results[site] = {
-                        "HTTP": {}, 
+                        "HTTP": {},
                         "HTTPS": {}
                     };
                 }
@@ -145,14 +145,14 @@ function process_site() {
                 page.release();
                 process_site();
             });
-        } 
+        }
 
         /* HTTPS: */
         else {
-            // If Starting new page: 
+            // If Starting new page:
             if (iteration == 0)
                 console.log("Over HTTPS: ");
-            
+
             time_start = Date.now();
             // console.log("Opening https://"+site);
             page.open("https://" + site, function(status){
@@ -160,7 +160,7 @@ function process_site() {
 
                 if(!(site in results)) {
                     results[site] = {
-                        "HTTP": {}, 
+                        "HTTP": {},
                         "HTTPS": {}
                     };
                 }
@@ -203,7 +203,7 @@ function printResults() {
         HTTP_line += " Med "+msToStr(HTTP_median)+" Avg "+msToStr(HTTP_mean);
         console.log(HTTP_line);
 
-        // HTTPS Stuff 
+        // HTTPS Stuff
         var HTTPS_data = results[site]["HTTPS"];
         if(hasError(HTTPS_data)){
             console.log(site+" HAS HTTPS ERROR, SKIPPING");
@@ -222,7 +222,7 @@ function printResults() {
         var ratio_median = HTTPS_median / HTTP_median;
         var ratio_mean   = HTTPS_mean   / HTTP_mean;
         var diff_median  = HTTPS_median - HTTP_median;
-        var diff_mean    = HTTPS_mean   - HTTP_mean; 
+        var diff_mean    = HTTPS_mean   - HTTP_mean;
 
         var comp_line = site+" COMP "+ratio_median.toPrecision(4)+" "+msToStr(diff_median)+" "+ratio_mean.toPrecision(4)+" "+msToStr(diff_mean);
         console.log(comp_line);
@@ -256,7 +256,7 @@ function calcMedian(data) {
     sorted = sorted.sort(function(a,b){
         return a-b;
     });
-    return (sorted[Math.floor((NTRIALS-1)/2.0)] + sorted[Math.floor((NTRIALS-1)/2.0)])/2.0;
+    return (sorted[Math.ceil((NTRIALS-1)/2.0)] + sorted[Math.floor((NTRIALS-1)/2.0)])/2.0;
 }
 
 // Assumes data array length 4
